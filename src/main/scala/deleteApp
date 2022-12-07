@@ -1,0 +1,26 @@
+import org.apache.spark.sql.SparkSession
+import scopt.{OParser, OParserBuilder,Read}
+object deleteApp0 extends App0 {
+                      val spark =  SparkSession.builder.appName("delete").getOrCreate()
+                      var df = spark.read.option("header",true).csv("hdfs:/exam_elhourri_bihlal/bronze/GOLD_DATA.csv")
+                      println("ok")
+                      case class Arguments(inputDir: Long = 0)
+                      val parser = new scopt.OptionParser[Arguments]("Parsing application") {
+
+                      opt[Long]('i', "inputDir").
+                      required().valueName("").action((value, arguments) => arguments.copy(inputDir = value))
+           }
+                       def run(arguments: Arguments): Unit = {
+                                    println("Input Dir:" + arguments.inputDir)
+                                    val df2 = df.filter(" id !="+"'"+arguments.inputDir+"'")
+                                    df2.show(10,false)
+                                    df2.write.option("header",true).csv("hdfs:/exam_elhourri_bihlal/bronze/data_test")
+        
+            }
+
+                      parser.parse(args, Arguments()) match {
+                               case Some(arguments) => run(arguments)
+                                case None =>
+    }
+                       
+}

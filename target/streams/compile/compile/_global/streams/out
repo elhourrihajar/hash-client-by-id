@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/nodekamicode/deleteApp/src/main/scala/deleteApp.scala:36:41: df2 is already defined as variable df2[0m
+[0m[[0m[31merror[0m] [0m[0m                                    var df2 = df.withColumn("last_name", when(col("id") ===  arguments.inputHash,UUID.randomUUID.toString).otherwise(col("last_name")))[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nodekamicode/deleteApp/src/main/scala/deleteApp.scala:37:41: df2 is already defined as variable df2[0m
+[0m[[0m[31merror[0m] [0m[0m                                    var df2 = df.withColumn("address", when(col("id") ===  arguments.inputHash,UUID.randomUUID.toString).otherwise(col("address")))[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nodekamicode/deleteApp/src/main/scala/deleteApp.scala:38:41: df2 is already defined as variable df2[0m
+[0m[[0m[31merror[0m] [0m[0m                                    var df2= df.withColumn("souscription_date", when(col("id") ===  arguments.inputHash,UUID.randomUUID.toString).otherwise(col("souscription_date")))[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
