@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "colName": "id",
+      "colType": "Long"
+    },
+    {
+      "colName": "first_name",
+      "colType": "string"
+    },
+    {
+      "colName": "last_name",
+      "colType": "string"
+    },
+    {
+      "colName": "address",
+      "colType": "string"
+    },
+    {
+      "colName": "souscription_date",
+      "colType": "DateTime"
+    }
+  ]
+}

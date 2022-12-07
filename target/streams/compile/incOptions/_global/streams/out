@@ -1,18 +1,18 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/nodekamicode/hashClient/target/scala-2.12/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$Arguments.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$Arguments$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$Arguments.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$Arguments$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$Arguments.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$Arguments$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	deleteApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$Arguments.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$Arguments$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hashClient$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	hashClient$Arguments.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	hashClient$delayedInit$body.class[0m
